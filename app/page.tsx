@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Mic, Volume2, VolumeX, BookOpen, X } from "lucide-react"
+import { Mic, Volume2, VolumeX, TicketPercentIcon, X } from "lucide-react"
 
 interface Message {
   id: string
@@ -87,8 +87,8 @@ export default function DyslexiaLearningAssistant() {
     <div className="min-h-screen bg-background p-4">
       <header className="flex items-center justify-center mb-6 p-4 bg-card rounded-lg shadow-sm">
         <div className="flex items-center gap-4">
-          <BookOpen className="w-8 h-8 text-primary" />
-          <h1 className="text-3xl font-bold text-foreground">Learning Helper</h1>
+          <TicketPercentIcon className="w-8 h-8 text-lime-600" />
+          <h1 className="text-3xl font-bold text-foreground">{"Dyslexia Ai"}</h1>
         </div>
       </header>
 
