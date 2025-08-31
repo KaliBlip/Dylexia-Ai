@@ -1,7 +1,7 @@
 export const API_CONFIG = {
   // Hugging Face Router API Configuration
   HF_API_URL: process.env.HF_API_URL || 'https://router.huggingface.co/v1/chat/completions',
-  HF_API_KEY: process.env.HF_API_KEY || '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',
+  HF_API_KEY: process.env.HF_API_KEY || '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',
   
   // Model Configuration
   DEFAULT_MODEL: 'google/gemma-3-27b-it:nebius',
