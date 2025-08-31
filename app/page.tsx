@@ -353,7 +353,7 @@ export default function DyslexiaLearningAssistant() {
             </div>
 
             <div className="flex justify-center gap-6 mt-6">
-              <Button variant="outline" size="lg" onClick={handleVoiceInput} className="p-6 text-lg bg-transparent">
+              <Button variant="outline" size="lg" onClick={handleVoiceInput} className="p-6 text-lg bg-purple-600 hover:bg-purple-700 text-white">
                 <Mic className="w-6 h-6 mr-3" />
                 Talk
               </Button>
