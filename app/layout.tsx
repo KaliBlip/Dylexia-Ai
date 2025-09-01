@@ -7,7 +7,6 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Dyslexia-Friendly Learning Assistant",
   description: "An accessible English learning assistant designed for children with dyslexia",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
